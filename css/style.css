@@ -1,0 +1,498 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.txt
+{
+    width: 35%;
+    display: flex;
+    padding-left: 100px;
+    font-size: 19px;
+
+
+}
+
+.topcont
+{
+   width: 100%;
+   height: 40px;
+    background: linear-gradient( 90deg , #812868 0%, #f954a4 100%);
+    color:white;
+    display: flex;
+    font-family: 'Spartan', sans-serif ;
+    font-weight:lighter;
+    align-items: center;
+    
+
+}
+
+
+  .nav-list
+  {
+    display: flex;
+      padding-left: 35px;
+
+  }
+
+  .nav-list li
+  {
+      list-style: none;
+      padding-left: 30px;
+      font-size: 15px;
+      
+    
+    }
+
+  .soc{
+        width: 20px;
+        height: 15px;
+      margin-left: 30px;
+      display: flex;
+      object-fit: cover;
+      
+  }
+
+  .soc img
+  {
+      cursor: pointer;
+      width: 100%;
+      
+  }
+
+
+
+  .nav2
+  {
+      width: 100%;
+      height: 30%;
+      display: flex;
+      align-items: center;
+      background-color: white;
+      
+  }
+
+  .nav2 img{
+      width: 9%;
+      margin-left: 100px;
+      padding-right: 30px;
+      
+         }
+
+
+
+    .nav2-list
+    {
+        
+        display: flex;
+        align-items: center;
+        padding-left: 60px;
+        
+
+    }
+
+    .nav2-list li
+    {
+        list-style: none;
+        margin-left: 20px;
+        align-items: center;
+        padding: 5px;
+        
+    }
+
+    .nav2-list li a
+    {
+    color: grey;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+    }
+
+   .nav2-list li a:hover 
+    {
+        color: red;
+
+    }
+
+
+
+    .back
+    {
+        width: 100%;
+        background-color: white;
+    }
+
+    .back img
+    {
+        width: 100%;
+        
+    }
+
+    .notif
+    {
+        width: 100%;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        background-color: white;
+    }
+
+    .mar
+    {
+        width: 40%;
+        float: right;
+        color: #f954a4;
+        font-weight: normal;
+    }
+
+
+    .heading
+    {
+        width: 100%;
+        padding-top: 100px;
+        font-size: 40px;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-weight: bold;
+        color: black;
+        text-align: center;
+        padding-bottom: 40px;
+        background-color: white;
+
+    }
+
+    .head2
+    {
+        width: 100%;
+        text-align: center;
+        font-size: 17px;
+        color: #000;
+        line-height: 23px;
+        font-weight: normal;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        padding-bottom: 50px;
+        background-color: white;
+    }
+
+    .btn1
+    {
+        background: linear-gradient( 90deg , #f954a4 0%, #480deb 100%);
+        color: white;
+        font-size: 18px;
+        font-family: 'Spartan', sans-serif ;
+        border-radius: 30px;
+        align-items: center;
+        margin: 15px;
+        padding: 12px;
+        border: 1px solid white;
+    }
+
+
+
+    body{
+
+        width: 100%;
+        background-image: url(../pic/back1.jpg);
+        
+        background-attachment: fixed;
+    }
+
+    body img{
+
+        width: 100%;
+       
+    }
+
+
+    .online-left
+    {
+        width: 30%;
+        height:auto;
+        text-align: left;
+        padding-left: 100px;
+        padding-bottom: 50px;
+        line-height: 20pt;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        color: white;
+
+    }
+
+
+    .online-right
+    {
+        width: 50%;
+        height:auto;
+        float: right;
+        padding-top: 150px;
+        
+    }
+
+    .online-right iframe
+    {
+        border: 5px solid white;
+    }
+        
+    
+
+
+
+    .head3
+    {
+        width: 100%;
+        height: auto;
+        padding-top: 100px;
+        font-size: 40px;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-weight: bold;
+        color:white;
+
+    }
+
+        .so-image
+        {
+            width: auto;
+            display: flex;
+            
+        }
+
+
+        .course
+        {
+            width: auto;
+            height: 1000px;
+            padding-left: 100px;
+            align-content: center;
+            align-items: center;
+            background-image: url(../pic/back2.png);
+            background-color: white;
+            background-repeat: no-repeat;
+
+        }
+
+        .course img
+        {
+            width: 100%;
+            height: 60%;
+            display: flex;
+            
+        }
+
+        .tab2
+        {
+           width:100%;
+           align-items: center;
+           
+          
+        }
+        
+    
+        .t1
+        {
+            width: 20%;
+            margin-left: 30px;
+            margin-bottom: 30px;
+            height: auto;
+            float: left;
+            border: 1px solid gray;
+            border-radius: 5px;
+            border-color: gray;
+            text-align: center;
+            transition: .5s;
+            background-color: white;
+
+        }
+
+
+
+        .t1-text
+        {
+            font-size: 17px;
+            text-align: center;
+            margin-top: 10px;
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+           
+        }
+
+        .t1:hover
+        {
+            transform: scale(1.1);
+        }
+
+
+
+            .student
+            {
+
+                width: auto;
+                height: 1100px;
+                background-color: white;
+                padding-left: 100px;
+            }
+
+                .student-i
+                {
+                    width: 22%;
+                    height: 250px;
+                    margin-left: 10px;
+                    margin-bottom: 10px;
+                    float: left;
+                    text-align: center;
+                    
+                   
+                }
+
+                .student-i img
+                {
+                    border-radius: 10px;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                
+                }
+
+
+
+                .student-2
+                {
+                    width: 45%;
+                    height: auto;
+                    margin-left: 10px;
+                    margin-bottom: 10px;
+                    float: left;
+                    text-align: center;
+                    
+                   
+                }
+
+
+                .student-2 img
+                {
+                    border-radius: 10px;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                
+                }
+
+
+                .student-3
+                {
+                    width: 30%;
+                    height: 250px;
+                    margin-left: 10px;
+                    margin-bottom: 10px;
+                    float: left;
+                    text-align: center;
+                    
+                   
+                }
+
+
+                .student-3 img
+                {
+                    border-radius: 10px;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                
+                }
+
+
+                
+
+
+
+    .student-container {
+        width: auto;
+        height: 700px;
+        padding-left: 100px;
+        background: url(../pic/back4.jpg) no-repeat center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+
+    .student-t
+    {
+        font-size: 40px;
+        padding-top: 70px;
+        padding-bottom: 50PX;
+        color: white;
+        text-align: center;
+        font-family: 'Lexend', sans-serif ;
+        font-weight: 600 ;
+       background-color: transparent;
+
+    }
+
+
+    .student-image
+    {
+        width: 25%;
+        height: 200px;
+        margin-left: 40px;
+        margin-bottom: 40px;
+        float: left;
+        text-align: center;
+    }
+
+    .student-image iframe
+    {
+                    width: 100%;
+                    height: 100%;
+                    border: 5px solid white;
+        
+    }
+
+
+
+    .contact {
+        width:auto;
+        height:400px;
+        padding-left: 100px;
+        background: url(../pic/back3.jpeg) no-repeat center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+
+    .contact-txt
+    {
+        width: 20%;
+        height: 200px;
+        margin-bottom: 40px;
+        float: left;
+        text-align: left;
+        padding-left: 50px;
+        font-family: 'Lexend', sans-serif;
+        font-size: 20px;
+        padding-top: 50px;
+        
+       
+    }
+
+
+    .contact-txt p
+    {
+        font-weight: bold;
+    }
+
+    .contact-txt li
+    {
+        font-size: 17px;
+        text-align: left;
+        font-family: 'Lexend', sans-serif ;
+        list-style: none;
+        padding-bottom: 5px;
+
+    }
+
+
+
+    
+
+
+
+
